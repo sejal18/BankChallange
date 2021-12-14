@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+ <link href="ishika.css" rel="stylesheet" type="text/css"/>
+ <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+ <script src="https://kit.fontawesome.com/795a9c145d.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+       
+       
+       <form action="RegisterServlet" method="post">
+		       
+		       <h1 style="color:orange" class="h3 mb-3 font-weight-normal">Welcome to the bank</h1><br>
+			    <input type="text" name="username" class="form-control top" placeholder="Username" required autofocus><br>
+			    <input type="text" name="password" class="form-control middle" placeholder="Password" required><br>
+			     <input type="text" name="sq" class="form-control middle" placeholder="Security Question" required><br>
+			     <input type="text" name="hint" class="form-control bottom" placeholder="Hint"  required ><br>
+			    		    			   
+			    
+					 <select name="type" class="form-control top">
+  <option value="Saving">Saving</option>
+  <option value="Current">Current</option>
+</select>	    <a href="Welcome.html">GO BACK</a>
+
+			    <button class="btn btn-lg btn-primary btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign me up</button><br><br><br><br>
+			   	
+       </form>
+       
+       
+              
+
+</body>
+</html>

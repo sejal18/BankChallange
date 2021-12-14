@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Money Transfer</title>
+<link href="transfer.css" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+<body>   
+<form action="TransferMet" method="get">
+        <section class="colored-section" id="title">
+             <div class="container-fluid">
+               <div class="row">
+                    <h1>Money Transfer</h1>
+                </div>
+             </div>
+        </section>  
+		
+		<div class="top-container">
+		    <label for="uname"><b>Account number</b></label>
+		    <input type="acc" placeholder="Enter the account number to which you want to transfer" name="accno" required>
+		</div>    
+		    
+		<div class="middle-container">
+		    <label for="psw"><b>Amount</b></label>
+		    <input type="transfer" placeholder="How much do you want to transfer?" name="amt" required>
+		</div>
+			    
+		<div class="bottom-container">
+		    <button type="submit">Transfer Now</button>
+		    <a href="Methods.html" class="container-fluid">Go Back</a>
+		 </div>
+	</form>			        
+</body>
+</html>

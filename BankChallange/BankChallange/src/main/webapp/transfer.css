@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+h1{
+	text-align:center;
+}
+
+.colored-section{
+  background-color: #6E85B2;
+  color: #fff;
+  padding: 3%;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.center form{
+	padding:0 40px;
+	box-sizing:border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align:center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type=acc], input[type=transfer] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.top-container{
+	margin: 30px 0;
+}
+.middle-container{
+	margin: 30px 0;
+}
+.bottom-container{
+	margin: 50px 0;
+	text-align:center;
+}
